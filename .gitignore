@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Environments and Jupyter
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Generated analysis output
+results/figures/*.png
+results/tables/*.csv
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
