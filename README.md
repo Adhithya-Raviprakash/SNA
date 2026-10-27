@@ -13,17 +13,21 @@ Course group project for **Advanced Text and Social Media Analytics (ATSMA)**.  
 ├── notebooks/
 │   ├── 01_network_exploration.ipynb
 │   ├── 02_centrality_analysis.ipynb
-│   └── 03_communities_and_robustness.ipynb
+│   └── 03_Communities_and_Robustness.ipynb
+├── dashboard/                   # Network Lens React/Electron dashboard
+├── data/                        # Optional network datasets (see data/README.md)
+├── reports/                     # Final ATSMA report (PDF and DOCX)
 ├── src/                         # Reusable loading, metric, and plotting helpers
 ├── tests/                       # Algorithm-validation tests
 ├── results/
 │   ├── figures/                 # Generated charts (notebook output)
 │   └── tables/                  # Generated CSV files (notebook output)
 ├── requirements.txt
+├── pytest.ini
 └── .gitignore
 ```
 
-The original single-file submission is retained as `SNA_Centrality_Analysis.ipynb` for reference. The project is intentionally delivered through three focused notebooks rather than one monolithic file.
+The project is intentionally delivered through three focused notebooks rather than one monolithic file.
 
 ## Collaboration workflow
 
@@ -32,7 +36,7 @@ The maintainer should publish the project foundation and Part 1 first. The other
 | Contributor | Branch | Files owned by the pull request |
 | --- | --- | --- |
 | Member 2 | `feature/centrality-analysis` | `src/centrality_algorithms.py`, `notebooks/02_centrality_analysis.ipynb`, and `tests/test_centrality_algorithms.py` |
-| Member 3 | `feature/communities-robustness` | `notebooks/03_communities_and_robustness.ipynb` and result-export additions |
+| Member 3 | `feature/communities-robustness` | `notebooks/03_Communities_and_Robustness.ipynb` and result-export additions |
 
 Each contributor should write their own commit message, verify the notebook, open the pull request from their GitHub account, and respond to at least one review comment. This produces a transparent contribution history and makes the project easy to evaluate.
 
@@ -42,7 +46,7 @@ Each contributor should write their own commit message, verify the notebook, ope
 | --- | --- | --- | --- |
 | 1 | `01_network_exploration.ipynb` | Member 1 | Dataset loading, network statistics, EDA and visualisation |
 | 2 | `02_centrality_analysis.ipynb` | Member 2 | Centrality metrics, manual algorithms and validation |
-| 3 | `03_communities_and_robustness.ipynb` | Member 3 | Community-history comparison, robustness and directed-network extension |
+| 3 | `03_Communities_and_Robustness.ipynb` | Member 3 | Community-history comparison, robustness and directed-network extension |
 
 All members should review the final README, interpretation, and presentation slides. Replace the suggested ownership labels with your names before submission.
 
