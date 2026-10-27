@@ -1,6 +1,6 @@
-# Social Network Centrality, Communities, and Robustness
+# Fable Network
 
-Course group project for **Advanced Text and Social Media Analytics (ATSMA)**.  We study Zachary's Karate Club network to answer three connected questions:
+Social network centrality, communities, and robustness. We study Zachary's Karate Club network to answer three connected questions:
 
 1. What does the social network look like?
 2. Which members are structurally important under different definitions of importance?
@@ -14,9 +14,9 @@ Course group project for **Advanced Text and Social Media Analytics (ATSMA)**.  
 │   ├── 01_network_exploration.ipynb
 │   ├── 02_centrality_analysis.ipynb
 │   └── 03_Communities_and_Robustness.ipynb
-├── dashboard/                   # Network Lens React/Electron dashboard
+├── dashboard/                   # Fable Network React/Electron dashboard
 ├── data/                        # Optional network datasets (see data/README.md)
-├── reports/                     # Final ATSMA report (PDF and DOCX)
+├── reports/                     # Final project report (PDF and DOCX)
 ├── src/                         # Reusable loading, metric, and plotting helpers
 ├── tests/                       # Algorithm-validation tests
 ├── results/
@@ -69,7 +69,7 @@ Run the notebooks in numerical order from the repository root. Part 3 is self-co
 
 ## Interactive dashboard
 
-The [`dashboard/`](dashboard/README.md) folder adds **Network Lens**, an interactive React dashboard for the same project. It starts with the Karate Club example, accepts browser-local edge-list uploads, calculates the centrality measures used in the notebooks, detects communities, and visualises targeted-removal robustness.
+The [`dashboard/`](dashboard/README.md) folder adds **Fable Network**, an interactive React dashboard for the same project. It starts with the Karate Club example, accepts browser-local edge-list uploads, calculates the centrality measures used in the notebooks, detects communities, and visualises targeted-removal robustness.
 
 ```bash
 cd dashboard

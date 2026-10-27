@@ -1,4 +1,4 @@
-# Network Lens dashboard
+# Fable Network dashboard
 
 An interactive, browser-local companion to the Social Network Analysis project. It exposes the same Karate Club example and analysis concepts used in the notebooks:
 
