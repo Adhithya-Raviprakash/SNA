@@ -28,7 +28,7 @@ Social network centrality, communities, and robustness. We study Zachary's Karat
 ```
 
 The project is intentionally delivered through three focused notebooks rather than one monolithic file.
-## Demon Video
+## Demo Video
 The Link: https://youtu.be/7HQiDRE6Lm0
 
 ## Collaboration workflow
